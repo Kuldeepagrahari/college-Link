@@ -440,3 +440,79 @@ width:16vw;
   'GRAD' 0,
   'opsz' 24
 }
+#club-mem{
+  background-color: gold;
+  width: 25vw;
+  height: 96vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 0.5vw;
+  margin-top: 1vh;
+  box-shadow: 2px -2px 20px rgb(18, 17, 17);
+}
+#club-mem h1{
+  background-color: #454546;
+  width: 25vw;
+  height: 8vh;
+  color: gold;
+  margin-top: 0px;
+}
+.EachClub-page{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-between ;
+  background-color: #666669;
+  width: 95vw;
+  height: 100vh;
+
+  box-shadow: 2px 2px 10px rgb(254, 254, 251);
+  box-shadow: -2px -2px 10px rgb(243, 240, 225);
+  margin-top: 5vh;
+}
+.clubpage-first{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#club-others{
+  display: flex;
+  flex-direction: column;
+  width:20vw;
+  /* align-items: ; */
+  justify-content:center ;
+
+}
+.events{
+  background-color: gold;
+  height: 48vh;
+  margin-top: 3vh;
+  box-shadow: -2px 2px 20px rgb(19, 19, 18);
+}
+.memories{
+  background-color: gold;
+  height: 48vh;
+  box-shadow: -2px 2px 20px rgb(19, 19, 18);
+}
+.memories h1{
+  background-color: #454546;
+  width: 20vw;
+  height: 6vh;
+  color: gold;
+  margin-top: 0px;
+}
+.events h1{
+  background-color: #454546;
+  color: gold;  
+   width: 20vw; 
+  height: 6vh;
+   color: gold;  
+  margin-top: 0px;
+}
+.most-liked{
+  height: 70vh;
+}
+.most-follow{
+  height: 25vh;
+}
