@@ -1,36 +1,37 @@
 import React from 'react';
 import "./index.css";
+import NAV from './navbar';
+import FOOTER from './footer';
 import img from "./logo3.png"
 
 function HOME() {
 
     return (
         <div>
-           
-           
+<div className='homepage-first'>
+    <NAV></NAV>
+    <div className='home-page'>
+    <div id="club-mem"> <h1>Members</h1></div>
+    
+    <div id="club-post"></div>
+    <div id="club-others">
+    <div className="memories most-liked"><h1>Most Liked Post</h1></div>
+     <div className="events most-follow"><h1>Most Following</h1></div>
+    </div>
+           {/* </div> */}
+    </div>
+    <FOOTER></FOOTER>
+</div>
+        </div>
 
-            <footer id="footer">
-            <div id="btn-part">  <h1>Suggest Changes...</h1>  <button>Submit</button></div>
-                <div id="form">
-                   <div> <label for ="name">Name: </label>
-                    <input type="text" name="name"></input></div>
-                 <div>   <label for ="email">Email: </label>
-                    <input type="email" name="email"></input></div>
-                  <div id="textarea">  <label for="comment">Comments: </label>
-                    <textarea cols="27" rows="5"name="comment " placeholder='write hare:'></textarea></div>
-                  
-                                    </div>
-                                </footer>
-                            </div>
-
-                                );
+    );
 }
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
+
+
+
+
+
+
+
+
 export default HOME;

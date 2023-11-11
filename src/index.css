@@ -16,6 +16,7 @@ header{
   flex-direction: row;
   height: 10vh;
   background-color: gold;
+  width: 100vw;
 }
 #btn-part{
   display: flex;
@@ -79,7 +80,7 @@ footer{
   background-color: gold;
   display: flex;
   justify-content: space-around;
-
+width:100vw;
 
 }
 footer {
@@ -458,7 +459,7 @@ width:16vw;
   color: gold;
   margin-top: 0px;
 }
-.EachClub-page{
+.EachClub-page, .home-page{
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -487,11 +488,13 @@ width:16vw;
 .events{
   background-color: gold;
   height: 48vh;
+  border-radius: 10px;
   margin-top: 3vh;
   box-shadow: -2px 2px 20px rgb(19, 19, 18);
 }
 .memories{
   background-color: gold;
+  border-radius: 10px;
   height: 48vh;
   box-shadow: -2px 2px 20px rgb(19, 19, 18);
 }
@@ -515,4 +518,11 @@ width:16vw;
 }
 .most-follow{
   height: 25vh;
+}
+.homepage-first{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

@@ -21,15 +21,16 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
  <div>
-  {/* <HOME></HOME> */}
+  <HOME></HOME>
  {/* <REGISTER></REGISTER> */}
  {/* <LOGIN></LOGIN> */}
 {/* <CHAT></CHAT> */}
   {/* <SIGNUP></SIGNUP> */}
   {/* <CLUBS></CLUBS> */}
+    {/* <NAV></NAV> */}
   {/* <COMMUNITIES></COMMUNITIES> */}
   {/* <NAV></NAV> */}
-  <COMMPAGE></COMMPAGE>
+  {/* <CLUBPAGE></CLUBPAGE> */}
   {/* <NAV></NAV> */}
 {/* <YOURFRIENDS></YOURFRIENDS> */}
 {/* <FOOTER></FOOTER> */}
